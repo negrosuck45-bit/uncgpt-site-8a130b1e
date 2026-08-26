@@ -1,0 +1,1 @@
+const button=document.getElementById('sound-toggle');button?.addEventListener('click',()=>{const on=button.getAttribute('aria-pressed')!=='true';button.setAttribute('aria-pressed',String(on));button.textContent=on?'Soundtrack on':'Soundtrack off'});
